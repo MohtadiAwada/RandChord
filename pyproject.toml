@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "randchord"
+version = "1.0.0"
+
+[project.scripts]
+randchord = "randchord.__main__:main"
