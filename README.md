@@ -8,6 +8,19 @@ A terminal-based random chord progression generator with playback.
 ```bash
 pip install randchord
 ```
+## Requirements
+### Debian/Ubuntu
+```bash
+sudo apt install libportaudio2
+```
+### Arch
+```bash
+sudo pacman -S portaudio
+```
+### Windows
+```bash
+No additional requirements needed.
+```
 
 ## Usage
 
